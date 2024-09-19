@@ -16,11 +16,15 @@ replace file_dir with your path
 import os
  
 #Get the directory of the currently running file
+
 file_dir = "/home/azureuser/cloudfiles/code/Users/hannahhowell/azure-ai-services-chat-with-your-data-hands-on/Day3/Hands-on/"
+
 #Get the current working directory
+
 current_cwd = os.getcwd()
  
 #Check if the current working directory is the same as the file directory
+
 if current_cwd != file_dir:
     # Change the current working directory to the file directory
     os.chdir(file_dir)
@@ -28,3 +32,7 @@ if current_cwd != file_dir:
 else:
     print("Already in the correct directory.")
 has context menu
+
+
+https://learn.microsoft.com/en-us/azure/search/index-add-suggesters
+
